@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/KASUKA/static/css/main.0d32990e.css",
+    "main.js": "/KASUKA/static/js/main.5e46d611.js",
+    "static/js/453.dad0b67f.chunk.js": "/KASUKA/static/js/453.dad0b67f.chunk.js",
+    "static/media/IRANSansWeb_Light.ttf": "/KASUKA/static/media/IRANSansWeb_Light.2b64937900326fc69f94.ttf",
+    "static/media/IRANSansWeb_Bold.ttf": "/KASUKA/static/media/IRANSansWeb_Bold.eb38333f6b96ff1dc30a.ttf",
+    "index.html": "/KASUKA/index.html",
+    "main.0d32990e.css.map": "/KASUKA/static/css/main.0d32990e.css.map",
+    "main.5e46d611.js.map": "/KASUKA/static/js/main.5e46d611.js.map",
+    "453.dad0b67f.chunk.js.map": "/KASUKA/static/js/453.dad0b67f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d32990e.css",
+    "static/js/main.5e46d611.js"
+  ]
+}

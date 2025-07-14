@@ -16,7 +16,7 @@ export default function Introducing() {
             {teamMember.map(team => (
                 <div key={team.id} className="w-full group relative sm:w-full md:w-1/2 lg:w-1/4 xl:w-1/6 
                  text-right shadow-lg hover:shadow-2xl transition duration-300 pb-7 rounded-lg overflow-hidden">
-                    <img className="w-full mb-6" src={team.image} alt="" />
+                    <img className="w-full mb-6" src={`${process.env.PUBLIC_URL}/photos/${team.image}`} alt="" />
                     <div className="flex group-hover:opacity-100 opacity-0 transition duration-300 absolute justify-center gap-4
                     sm:bottom-36 md:bottom-36 xs:bottom-36 left-0 right-0">
                         <Linkedin className="bg-neutral-300 cursor-pointer rounded-lg hover:bg-kasuka hover:text-white text-black

@@ -14,7 +14,7 @@ export default function Survery() {
     <div className='lg:flex w-10/12 justify-between mx-auto items-stretch mb-12'>
         <div className='lg:w-[48%] lg:flex w-full'>
           <div className='h-full w-full'>
-            <img className='w-full object-cover' src="/images/lap.jpg" alt="" />
+            <img className='w-full object-cover' src={`${process.env.PUBLIC_URL}/photos/lap.jpg`} alt="" />
           </div>
           
         </div>

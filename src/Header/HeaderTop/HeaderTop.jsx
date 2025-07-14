@@ -1,12 +1,13 @@
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 
+
 export default function HeaderTop() {
     const [open, setOpen] = useState(false)
   return (
     <div className='bg-black_overlay flex py-3 justify-evenly fixed top-0 w-full z-50 left-0'>
         <div className='flex items-center'>
-            <img className='w-[45px] h-[45px]' src="../logo1.png" alt="" />
+            <img className='w-[45px] h-[45px]' src={`${process.env.PUBLIC_URL}/photos/logo.png`} alt="" />
             <h1 className='text-white text-3xl font-bold'>KASUKA</h1>
         </div>
         <div className='flex items-center text-[19px] cursor-pointer'>
@@ -17,13 +18,13 @@ export default function HeaderTop() {
                 <li className='hover:text-kasuka'>نمونه کارها</li>
                 <li className='hover:text-kasuka'>تیم</li>
                 <li className='relative group'>
-                    <span className='cursor-pointer hover:text-kasuka'>لیست کشویی ></span>
+                    <span className='cursor-pointer hover:text-kasuka'>لیست کشویی </span>
                     <ul className='absolute right-0 hidden group-hover:block bg-white
                      text-black mt-0 w-40 shadow-lg text-right rounded'>
                         <li className='py-2 px-4 cursor-pointer hover:bg-gray-200'>لیست کشویی1</li>
                         <li className='py-2 px-4 cursor-pointer hover:bg-gray-200'>لیست کشویی2</li>
                         <li className='py-2 px-4 cursor-pointer hover:bg-gray-200 relative group/submenu'>
-                            <span className='hover:bg-gray-200'>لیست عمیق></span>
+                            <span className='hover:bg-gray-200'>لیست عمیق</span>
                             <ul className='absolute group-hover/submenu:block top-0 right-full hidden
                             w-52 bg-white text-black shadow-lg z-50 rounded-lg'>
                                 <li className='px-4 py-2 hover:bg-gray-200'>لیست کشویی عمیق1</li>
@@ -64,13 +65,13 @@ export default function HeaderTop() {
                 <li className='hover:text-kasuka'>نمونه کارها</li>
                 <li className='hover:text-kasuka'>تیم</li>
                 <li className='relative group'>
-                    <span className='cursor-pointer hover:text-kasuka'>لیست کشویی ></span>
+                    <span className='cursor-pointer hover:text-kasuka'>لیست کشویی </span>
                     <ul className='absolute right-0 hidden group-hover:block bg-white
                      text-black mt-0 w-40 shadow-lg text-right rounded'>
                         <li className='py-2 px-4 cursor-pointer hover:bg-gray-200'>لیست کشویی1</li>
                         <li className='py-2 px-4 cursor-pointer hover:bg-gray-200'>لیست کشویی2</li>
                         <li className='py-2 px-4 cursor-pointer hover:bg-gray-200 relative group/submenu'>
-                            <span className='hover:bg-gray-200'>لیست عمیق></span>
+                            <span className='hover:bg-gray-200'>لیست عمیق</span>
                             <ul className='absolute group-hover/submenu:block top-0 right-full hidden
                             w-52 bg-white text-black shadow-lg z-50 rounded-lg'>
                                 <li className='px-4 py-2 hover:bg-gray-200'>لیست کشویی عمیق1</li>

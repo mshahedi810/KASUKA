@@ -14,6 +14,7 @@ import Introducing from './Introducing/Introducing';
 import Map from './Map/Map';
 import Footer from './Footer/Footer';
 
+
 function App() {
   return (
     <div className="App">
@@ -28,7 +29,8 @@ function App() {
       <Team/>
       <Introducing/>
       <Map/>
-      <Footer/>    
+      <Footer/> 
+
     </div>
   );
 }

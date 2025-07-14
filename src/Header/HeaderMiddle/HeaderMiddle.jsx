@@ -1,7 +1,7 @@
 import {Store, ChartColumnBig, CalendarMinus2, PaintRoller, Database} from "lucide-react"
 export default function HeaderMiddle() {
   return (
-    <div style={{backgroundImage:"url('/images/dark.jpg')"}} className="h-full bg-cover overflow-hidden">
+    <div style={{backgroundImage:`url(${process.env.PUBLIC_URL}/photos/dark.jpg)`}} className="h-full bg-cover overflow-hidden">
         <h1 className="text-white text-[clamp(2rem,5vw,4rem)] font-extrabold mt-32">
             راه حل های قدرتمند دیجیتال با
         </h1>

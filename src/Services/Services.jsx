@@ -1,10 +1,10 @@
-import {BookText, Box, Images, ShieldHalf} from 'lucide-react'
+import {BookText, Box, photos, ShieldHalf} from 'lucide-react'
 
 export default function Services() {
   return (
     <div className='lg:flex-row flex-col w-10/12 mx-auto flex space-y-6 items-center my-24'>
         <div className='lg:w-1/2 w-5/6 space-y-6 px-4'>
-            <img src="/images/service.jpg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/photos/service.jpg`} alt="" />
         </div>
         <div className='lg:w-1/2 w-5/6 space-y-6 px-4'>
             <div className='flex'>
@@ -28,7 +28,7 @@ export default function Services() {
             </div>
 
             <div className='flex'>
-                <div className='ml-3'><Images className='ml-3 text-kasuka' size={45}/></div>
+                <div className='ml-3'><photos className='ml-3 text-kasuka' size={45}/></div>
                 <div>
                     <h1 className='text-right font-bold text-gray-900 mb-3'>پشتیبانی</h1>
                     <p className='text-justify'>

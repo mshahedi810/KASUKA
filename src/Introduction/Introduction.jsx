@@ -17,7 +17,7 @@ export default function Introduction() {
                 </div>
             </div>
             <div className='w-full flex lg:w-1/2'>
-               <img className='w-full object-cover flex-1' src='/images/introduction.jpg'/> 
+               <img className='w-full object-cover flex-1' src={`${process.env.PUBLIC_URL}/photos/introduction.jpg`}/> 
             </div>
         </div>
     )

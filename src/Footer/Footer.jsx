@@ -7,7 +7,7 @@ export default function Footer() {
     <div className='bg-neutral-800 flex flex-col lg:flex-row sm:pr-20 md:pr-16 xs:pr-14 justify-evenly mt-10 py-5'>
         <div className="mt-10 lg:flex lg:flex-col lg:pr-16">
             <div className='flex items-center'>
-                <img className='h-24 w-24' src="/images/logo.png" alt="" />
+                <img className='h-24 w-24' src={`${process.env.PUBLIC_URL}/photos/logo.png`} alt="" />
                 <h1 className='text-[25px] font-bold text-white'>KASUKA</h1>
             </div>
             <div className='flex flex-col gap-2 text-white text-right'>
